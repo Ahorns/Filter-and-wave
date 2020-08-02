@@ -1,0 +1,23 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Sun Aug  2 08:31:27 2020
+# Process ID: 11060
+# Current directory: C:/Users/kxdn/Desktop/DA_ZYNQ-master
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10160 C:\Users\kxdn\Desktop\DA_ZYNQ-master\dds_1.xpr
+# Log file: C:/Users/kxdn/Desktop/DA_ZYNQ-master/vivado.log
+# Journal file: C:/Users/kxdn/Desktop/DA_ZYNQ-master\vivado.jou
+#-----------------------------------------------------------
+start_guioopen_project C:/Users/kxdn/Desktop/DA_ZYNQ-master/dds_1.xpruopen_project C:/Users/kxdn/Desktop/Generator/DA_ZYNQ-master/dds_1.xpr
+update_compile_order -fileset sources_1
+close [ open C:/Users/kxdn/Desktop/Generator/DA_ZYNQ-master/dds_1.srcs/sources_1/new/Driver_DAC.v w ]
+add_files C:/Users/kxdn/Desktop/Generator/DA_ZYNQ-master/dds_1.srcs/sources_1/new/Driver_DAC.v
+update_compile_order -fileset sources_1
+reset_run rom_synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+export_ip_user_files -of_objects  [get_files C:/Users/kxdn/Desktop/Generator/DA_ZYNQ-master/dds_1.srcs/sources_1/new/Driver_DAC.v] -no_script -reset -force -quiet
+remove_files  C:/Users/kxdn/Desktop/Generator/DA_ZYNQ-master/dds_1.srcs/sources_1/new/Driver_DAC.v
+remove_files  C:/Users/kxdn/Desktop/Generator/DA_ZYNQ-master/dds_1.srcs/sources_1/new/Driver_DAC.v

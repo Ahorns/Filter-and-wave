@@ -1,0 +1,6 @@
+vhdl xil_defaultlib  \
+"../../../../DDSS.srcs/sources_1/bd/DDSS/ip/DDSS_mult_gen_0_0/sim/DDSS_mult_gen_0_0.vhd" \
+"../../../../DDSS.srcs/sources_1/bd/DDSS/ip/DDSS_dds_compiler_0_0/sim/DDSS_dds_compiler_0_0.vhd" \
+"../../../../DDSS.srcs/sources_1/bd/DDSS/ip/DDSS_dds_compiler_1_0/sim/DDSS_dds_compiler_1_0.vhd" \
+
+nosort

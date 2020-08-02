@@ -1,0 +1,31 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Sun Aug  2 17:21:32 2020
+# Process ID: 8196
+# Current directory: C:/Users/kxdn/Desktop/Generator SSS
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11992 C:\Users\kxdn\Desktop\Generator SSS\Generator SSS.xpr
+# Log file: C:/Users/kxdn/Desktop/Generator SSS/vivado.log
+# Journal file: C:/Users/kxdn/Desktop/Generator SSS\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/kxdn/Desktop/Generator SSS/Generator SSS.xpr}
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+open_hw_manager
+close_hw_manager
+add_files -fileset utils_1 -norecurse {{C:/Users/kxdn/Desktop/Generator SSS/name.tcl}}
+set_property STEPS.WRITE_BITSTREAM.TCL.PRE [ get_files {{C:/Users/kxdn/Desktop/Generator SSS/name.tcl}} -of [get_fileset utils_1] ] [get_runs impl_1]
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1

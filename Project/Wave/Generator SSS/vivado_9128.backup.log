@@ -1,0 +1,22 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Sun Aug  2 17:18:53 2020
+# Process ID: 9128
+# Current directory: C:/Users/kxdn/Desktop/项目/波形发生器/Generator SSS
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7564 C:\Users\kxdn\Desktop\项目\波形发生器\Generator SSS\Generator SSS.xpr
+# Log file: C:/Users/kxdn/Desktop/项目/波形发生器/Generator SSS/vivado.log
+# Journal file: C:/Users/kxdn/Desktop/项目/波形发生器/Generator SSS\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/kxdn/Desktop/项目/波形发生器/Generator SSS/Generator SSS.xpr}
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/vivado/Vivado/2019.2/data/ip'.
+open_project: Time (s): cpu = 00:00:23 ; elapsed = 00:00:11 . Memory (MB): peak = 906.172 ; gain = 249.309
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun Aug  2 17:21:02 2020...

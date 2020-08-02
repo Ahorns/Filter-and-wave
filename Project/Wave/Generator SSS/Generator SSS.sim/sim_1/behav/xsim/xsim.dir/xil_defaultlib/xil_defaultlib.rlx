@@ -1,0 +1,12 @@
+0.6
+2019.2
+Nov  6 2019
+21:57:16
+C:/Users/kxdn/Desktop/Generator/Generator SSS/Generator SSS.sim/sim_1/behav/xsim/glbl.v,1573089660,verilog,,,,glbl,,,,,,,,
+C:/Users/kxdn/Desktop/Generator/Generator SSS/Generator SSS.srcs/sim_1/new/sim_square_controller.v,1596211048,verilog,,,,sim_square_controller,,,../../../../Generator SSS.srcs/sources_1/ip/clk_wiz_0,,,,,
+C:/Users/kxdn/Desktop/Generator/Generator SSS/Generator SSS.srcs/sim_1/new/sim_triangle_controller.v,1596243495,verilog,,,,sim_triangle_controller,,,../../../../Generator SSS.srcs/sources_1/ip/clk_wiz_0,,,,,
+C:/Users/kxdn/Desktop/Generator/Generator SSS/Generator SSS.srcs/sim_1/new/sin_controller.v,1596205081,verilog,,,,sim_sin_controller,,,../../../../Generator SSS.srcs/sources_1/ip/clk_wiz_0,,,,,
+C:/Users/kxdn/Desktop/Generator/Generator SSS/Generator SSS.srcs/sources_1/ip/cordic_0/sim/cordic_0.vhd,1596183884,vhdl,,,,cordic_0,,,,,,,,
+C:/Users/kxdn/Desktop/Generator/Generator SSS/Generator SSS.srcs/sources_1/new/sin_controller.v,1596205081,verilog,,C:/Users/kxdn/Desktop/Generator/Generator SSS/Generator SSS.srcs/sim_1/new/sin_controller.v,,sin_controller,,,../../../../Generator SSS.srcs/sources_1/ip/clk_wiz_0,,,,,
+C:/Users/kxdn/Desktop/Generator/Generator SSS/Generator SSS.srcs/sources_1/new/squar_controller.v,1596212489,verilog,,C:/Users/kxdn/Desktop/Generator/Generator SSS/Generator SSS.srcs/sim_1/new/sim_square_controller.v,,square_controller,,,../../../../Generator SSS.srcs/sources_1/ip/clk_wiz_0,,,,,
+C:/Users/kxdn/Desktop/Generator/Generator SSS/Generator SSS.srcs/sources_1/new/triangle_controller.v,1596212489,verilog,,C:/Users/kxdn/Desktop/Generator/Generator SSS/Generator SSS.srcs/sim_1/new/sim_triangle_controller.v,,triangle_controller,,,../../../../Generator SSS.srcs/sources_1/ip/clk_wiz_0,,,,,

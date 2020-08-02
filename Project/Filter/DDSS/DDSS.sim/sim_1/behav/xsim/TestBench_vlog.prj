@@ -1,0 +1,11 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../DDSS.srcs/sources_1/bd/DDSS/sim/DDSS.v" \
+"../../../../DDSS.srcs/sources_1/bd/DDSS/hdl/DDSS_wrapper.v" \
+"../../../../DDSS.srcs/sim_1/new/TestBench.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

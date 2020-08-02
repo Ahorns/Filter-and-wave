@@ -1,0 +1,25 @@
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
+| Date         : Fri Jul 31 00:59:19 2020
+| Host         : LAPTOP-9O34ELCS running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'rom'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of rom from xilinx.com:ip:blk_mem_gen:8.3 (Rev. 1) to xilinx.com:ip:blk_mem_gen:8.4 (Rev. 4)
+
+2. Interface Information
+------------------------
+
+Detected external interface differences while upgrading 'rom'.
+
+
+-Upgrade has removed interface 'BRAM_PORTB'
+
+

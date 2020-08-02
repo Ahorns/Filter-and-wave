@@ -1,0 +1,98 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Sat Aug  1 18:57:55 2020
+# Process ID: 14092
+# Current directory: C:/Users/kxdn/Desktop/Generator/Generator SSS
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9144 C:\Users\kxdn\Desktop\Generator\Generator SSS\Generator SSS.xpr
+# Log file: C:/Users/kxdn/Desktop/Generator/Generator SSS/vivado.log
+# Journal file: C:/Users/kxdn/Desktop/Generator/Generator SSS\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/kxdn/Desktop/Generator/Generator SSS/Generator SSS.xpr}
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/vivado/Vivado/2019.2/data/ip'.
+open_project: Time (s): cpu = 00:00:22 ; elapsed = 00:00:12 . Memory (MB): peak = 873.367 ; gain = 246.930
+update_compile_order -fileset sources_1
+file mkdir C:/Users/kxdn/Desktop/Generator/Generator SSS/Generator SSS.srcs/constrs_1
+file mkdir C:/Users/kxdn/Desktop/Generator/Generator SSS/Generator SSS.srcs/constrs_1
+file mkdir C:/Users/kxdn/Desktop/Generator/Generator SSS/Generator SSS.srcs/constrs_1/new
+file mkdir C:/Users/kxdn/Desktop/Generator/Generator SSS/Generator SSS.srcs/constrs_1/new
+file mkdir C:/Users/kxdn/Desktop/Generator/Generator SSS/Generator SSS.srcs/constrs_1/new
+file mkdir C:/Users/kxdn/Desktop/Generator/Generator SSS/Generator SSS.srcs/constrs_1/new
+file mkdir C:/Users/kxdn/Desktop/Generator/Generator SSS/Generator SSS.srcs/constrs_1
+file mkdir {C:/Users/kxdn/Desktop/Generator/Generator SSS/Generator SSS.srcs/constrs_1/new}
+close [ open {C:/Users/kxdn/Desktop/Generator/Generator SSS/Generator SSS.srcs/constrs_1/new/system.xdc} w ]
+add_files -fileset constrs_1 {{C:/Users/kxdn/Desktop/Generator/Generator SSS/Generator SSS.srcs/constrs_1/new/system.xdc}}
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Sat Aug  1 22:43:06 2020] Launched synth_1...
+Run output will be captured here: C:/Users/kxdn/Desktop/Generator/Generator SSS/Generator SSS.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 4
+[Sat Aug  1 22:44:13 2020] Launched impl_1...
+Run output will be captured here: C:/Users/kxdn/Desktop/Generator/Generator SSS/Generator SSS.runs/impl_1/runme.log
+reset_run synth_1
+reset_run impl_1
+launch_runs impl_1 -jobs 4
+[Sat Aug  1 22:46:45 2020] Launched synth_1...
+Run output will be captured here: C:/Users/kxdn/Desktop/Generator/Generator SSS/Generator SSS.runs/synth_1/runme.log
+[Sat Aug  1 22:46:46 2020] Launched impl_1...
+Run output will be captured here: C:/Users/kxdn/Desktop/Generator/Generator SSS/Generator SSS.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Sat Aug  1 22:50:25 2020] Launched synth_1...
+Run output will be captured here: C:/Users/kxdn/Desktop/Generator/Generator SSS/Generator SSS.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Sat Aug  1 22:51:28 2020] Launched synth_1...
+Run output will be captured here: C:/Users/kxdn/Desktop/Generator/Generator SSS/Generator SSS.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 4
+[Sat Aug  1 22:54:29 2020] Launched impl_1...
+Run output will be captured here: C:/Users/kxdn/Desktop/Generator/Generator SSS/Generator SSS.runs/impl_1/runme.log
+reset_run synth_1
+reset_run impl_1
+launch_runs impl_1 -jobs 4
+[Sat Aug  1 23:01:25 2020] Launched synth_1...
+Run output will be captured here: C:/Users/kxdn/Desktop/Generator/Generator SSS/Generator SSS.runs/synth_1/runme.log
+[Sat Aug  1 23:01:25 2020] Launched impl_1...
+Run output will be captured here: C:/Users/kxdn/Desktop/Generator/Generator SSS/Generator SSS.runs/impl_1/runme.log
+set_property top sim_sin_controller [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+update_compile_order -fileset sim_1
+reset_run synth_1
+reset_run impl_1
+launch_runs impl_1 -jobs 4
+[Sat Aug  1 23:15:07 2020] Launched synth_1...
+Run output will be captured here: C:/Users/kxdn/Desktop/Generator/Generator SSS/Generator SSS.runs/synth_1/runme.log
+[Sat Aug  1 23:15:07 2020] Launched impl_1...
+Run output will be captured here: C:/Users/kxdn/Desktop/Generator/Generator SSS/Generator SSS.runs/impl_1/runme.log
+reset_run synth_1
+reset_run impl_1
+launch_runs impl_1 -jobs 4
+[Sat Aug  1 23:18:15 2020] Launched synth_1...
+Run output will be captured here: C:/Users/kxdn/Desktop/Generator/Generator SSS/Generator SSS.runs/synth_1/runme.log
+[Sat Aug  1 23:18:15 2020] Launched impl_1...
+Run output will be captured here: C:/Users/kxdn/Desktop/Generator/Generator SSS/Generator SSS.runs/impl_1/runme.log
+reset_run synth_1
+reset_run impl_1
+launch_runs impl_1 -jobs 4
+[Sat Aug  1 23:21:07 2020] Launched synth_1...
+Run output will be captured here: C:/Users/kxdn/Desktop/Generator/Generator SSS/Generator SSS.runs/synth_1/runme.log
+[Sat Aug  1 23:21:07 2020] Launched impl_1...
+Run output will be captured here: C:/Users/kxdn/Desktop/Generator/Generator SSS/Generator SSS.runs/impl_1/runme.log
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/kxdn/Desktop/Generator/Generator SSS/Generator SSS.runs/synth_1
+
+reset_run impl_1
+launch_runs impl_1 -jobs 4
+[Sat Aug  1 23:56:21 2020] Launched synth_1...
+Run output will be captured here: C:/Users/kxdn/Desktop/Generator/Generator SSS/Generator SSS.runs/synth_1/runme.log
+[Sat Aug  1 23:56:21 2020] Launched impl_1...
+Run output will be captured here: C:/Users/kxdn/Desktop/Generator/Generator SSS/Generator SSS.runs/impl_1/runme.log
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun Aug  2 00:00:46 2020...

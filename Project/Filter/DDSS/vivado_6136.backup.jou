@@ -1,0 +1,26 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Sun Aug  2 12:11:02 2020
+# Process ID: 6136
+# Current directory: C:/Users/kxdn/Desktop/DDSS
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent6732 C:\Users\kxdn\Desktop\DDSS\DDSS.xpr
+# Log file: C:/Users/kxdn/Desktop/DDSS/vivado.log
+# Journal file: C:/Users/kxdn/Desktop/DDSS\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/kxdn/Desktop/DDSS/DDSS.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source TestBench.tcl
+current_wave_config {Untitled 1}
+add_wave {{/TestBench/DDSS_wrapper_insist/DDSS_i/dds_compiler_0/m_axis_data_tdata}} {{/TestBench/DDSS_wrapper_insist/DDSS_i/dds_compiler_0/m_axis_phase_tvalid}} {{/TestBench/DDSS_wrapper_insist/DDSS_i/dds_compiler_0/m_axis_phase_tdata}} 
+run all
+current_wave_config {Untitled 1}
+add_wave {{/TestBench/DDSS_wrapper_insist/DDSS_i/dds_compiler_0/m_axis_data_tvalid}} 
+run all
+current_wave_config {Untitled 1}
+add_wave {{/TestBench/DDSS_wrapper_insist/DDSS_i/P}} {{/TestBench/DDSS_wrapper_insist/DDSS_i/aclk}} {{/TestBench/DDSS_wrapper_insist/DDSS_i/Net}} {{/TestBench/DDSS_wrapper_insist/DDSS_i/dds_compiler_0_m_axis_data_tdata}} {{/TestBench/DDSS_wrapper_insist/DDSS_i/dds_compiler_1_m_axis_data_tdata}} {{/TestBench/DDSS_wrapper_insist/DDSS_i/mult_gen_0_P}} 
+run all
+close_sim

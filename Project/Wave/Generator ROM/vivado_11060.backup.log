@@ -1,0 +1,43 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Sun Aug  2 08:31:27 2020
+# Process ID: 11060
+# Current directory: C:/Users/kxdn/Desktop/DA_ZYNQ-master
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10160 C:\Users\kxdn\Desktop\DA_ZYNQ-master\dds_1.xpr
+# Log file: C:/Users/kxdn/Desktop/DA_ZYNQ-master/vivado.log
+# Journal file: C:/Users/kxdn/Desktop/DA_ZYNQ-master\vivado.jou
+#-----------------------------------------------------------
+start_guioopen_project C:/Users/kxdn/Desktop/DA_ZYNQ-master/dds_1.xprScanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-3] IP Repository Path: Could not find the directoopen_project C:/Users/kxdn/Desktop/Generator/DA_ZYNQ-master/dds_1.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/kxdn/Desktop/DA_ZYNQ-master' since last save.
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-3] IP Repository Path: Could not find the directory 'e:/soft_projects/fpga_minist/code/mnist_fpga-master/mnist_fpga-master/ipcore_dir'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'e:/soft_projects/fpga_minist/code/mnist_fpga-master/mnist_fpga-master/ipcore_dir'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'c:/Users/kxdn/Desktop/Generator/DA_ZYNQ-master/dds_1.srcs/sources_1/ip'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'c:/Users/kxdn/Desktop/Generator/DA_ZYNQ-master/dds_1.srcs/sources_1/ip/dds_addr'. The path is contained within another repository.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/kxdn/Desktop/Generator/DA_ZYNQ-master/dds_1.srcs/sources_1'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/vivado/Vivado/2019.2/data/ip'.
+update_compile_order -fileset sources_1
+close [ open C:/Users/kxdn/Desktop/Generator/DA_ZYNQ-master/dds_1.srcs/sources_1/new/Driver_DAC.v w ]
+add_files C:/Users/kxdn/Desktop/Generator/DA_ZYNQ-master/dds_1.srcs/sources_1/new/Driver_DAC.v
+update_compile_order -fileset sources_1
+reset_run rom_synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'rom'...
+[Sun Aug  2 08:37:44 2020] Launched rom_synth_1...
+Run output will be captured here: C:/Users/kxdn/Desktop/Generator/DA_ZYNQ-master/dds_1.runs/rom_synth_1/runme.log
+[Sun Aug  2 08:37:44 2020] Launched synth_1...
+Run output will be captured here: C:/Users/kxdn/Desktop/Generator/DA_ZYNQ-master/dds_1.runs/synth_1/runme.log
+export_ip_user_files -of_objects  [get_files C:/Users/kxdn/Desktop/Generator/DA_ZYNQ-master/dds_1.srcs/sources_1/new/Driver_DAC.v] -no_script -reset -force -quiet
+remove_files  C:/Users/kxdn/Desktop/Generator/DA_ZYNQ-master/dds_1.srcs/sources_1/new/Driver_DAC.v
+remove_files  C:/Users/kxdn/Desktop/Generator/DA_ZYNQ-master/dds_1.srcs/sources_1/new/Driver_DAC.v
+WARNING: [Vivado 12-818] No files matched 'C:/Users/kxdn/Desktop/Generator/DA_ZYNQ-master/dds_1.srcs/sources_1/new/Driver_DAC.v'
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun Aug  2 10:00:16 2020...

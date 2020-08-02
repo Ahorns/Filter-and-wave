@@ -1,0 +1,9 @@
+{
+	"version": "1.0",
+	"modules": {
+		"DDSS": {
+			"proto_instances": {
+			}
+		}
+	}
+}
